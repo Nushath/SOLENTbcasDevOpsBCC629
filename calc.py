@@ -7,7 +7,7 @@ app.config.from_object(__name__)
 @app.route('/')
 def welcome():
     return flask.render_template('form.html')
-
+#testing
 
 @app.route('/result', methods=['POST'])
 def result():
